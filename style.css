@@ -1,0 +1,36 @@
+img {
+  content: "";
+  min-width: 100%
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;   
+}
+
+h1, p, form {
+	font-family: Courier New, Sans-Serif;
+	color: black;
+	font-style: oblique;
+	font-weight: 900;
+	width: 700px;
+	text-align: justify;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 100;
+
+}
+select, input, textarea {
+	font-family: Courier New, Sans-Serif;
+	background-color: wheat;
+	color: dimgray;
+	font-style: oblique;
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	z-index: 100;
+}
+
+

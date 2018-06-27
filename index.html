@@ -2,35 +2,38 @@
 <html>
 <head>
 	<title>FCC - Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="main"> <img src="./background.jpg">
 <h1>Registration form</h1>
 <p>This is a short registration form to help us to know you before we meet you. Please fill the form send us and we contact with you soon.</p>
 <form id="survey-form">
-	<label id="name-label"> Your name: </label><input placeholder="Jane Doe" type="text" name="name" id="name">
-	<label id="email-label">Email: </label> <input placeholder="your.email@email.com" type="email" name="email">
-	<label id="number-label">Your phone: </label> <input placeholder="3611234567" type="number" name="phone">
-	<label>Please choose one of these</label> <select id="dropdown">
+	<label id="name-label"> Your name: </label><input placeholder="Jane Doe" type="text" name="name" id="name"> <br>
+	<label id="email-label">Email: </label> <input placeholder="your.email@email.com" type="email" name="email"> <br>
+	<label id="number-label">Your phone: </label> <input placeholder="3611234567" type="number" name="phone"><br>
+	<label>Please choose one of these: </label> <select id="dropdown">
 		<option value="Silat">I want to practice Silat</option>
 		<option value="Kung fu">I want to practice Kung Fu</option>
 		<option value="Chikung">I interest for chikung</option>
 		<option value="massage">I have a pain, I need a massage</option>
-	</select>
-	<label>Please choose your age range.</label>
-	<input type="radio" name="age" value="young"> Under 30yr <br>
-	<input type="radio" name="age" value="middle"> Between 30yr and 60yr <br>
+	</select> <br>
+	<label>Please choose your age range.</label> <br>
+	<input type="radio" name="age" value="young"> Under 30yr
+	<input type="radio" name="age" value="middle"> Between 30yr and 60yr
 	<input type="radio" name="age" value="old"> Too much, more than 60yr <br>
-	<label>Please choose which days are the best for you</label>
+	<label>Please choose which days are the best for you</label> <br>
 	<input type="checkbox" name="days" value="Monday"> Monday
 	<input type="checkbox" name="days" value="Tuesday"> Tuesday
 	<input type="checkbox" name="days" value="Wednesday"> Wednesday
 	<input type="checkbox" name="days" value="Thursday"> Thursday
 	<input type="checkbox" name="days" value="Friday"> Friday
 	<input type="checkbox" name="days" value="Saturday"> Saturday
-	<input type="checkbox" name="days" value="Sunday"> Sunday
-<label>If you want to ask or say us more information about yourself</label>
-<textarea name="message" rows="15" cols="60"></textarea>
+	<input type="checkbox" name="days" value="Sunday"> Sunday <br>
+<label>If you want to ask or say us more information about yourself</label> <br>
+<textarea name="message" rows="10" cols="50"></textarea> <br>
 <input type="submit" name="submit"> 
 </form>
+</div>
 </body>
 </html>
